@@ -17,7 +17,6 @@ prompt.get([{name: 'input', required: true, type: 'integer'}], function(err, res
 	var y = 0;
 	var targetStep = 1;
 	var curStep = 0;
-	var addToTarget = false;
 	for (i = 1; i < input; i++) {
 		curStep++;
 		switch(dir) {
