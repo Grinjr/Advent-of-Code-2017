@@ -1,5 +1,7 @@
 var prompt = require('prompt');
 
+var coords = [];
+
 var steps = 0;
 prompt.start();
 prompt.get([{name: 'input', required: true, type: 'integer'}], function(err, result) {
