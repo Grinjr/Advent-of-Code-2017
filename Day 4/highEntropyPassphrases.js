@@ -10,7 +10,6 @@ for (l in lines) {
 	for (i in items) {
 		for (var c = i; c < items.length; c++) { //repetitive I know, and a bit dirty... Perhaps a better solution?
 			if (items[i] === items[c] && i != c) {
-				console.log(items[i], items[c], i, c, validPhrases);
 				validPhrase = false;
 			}
 		}
